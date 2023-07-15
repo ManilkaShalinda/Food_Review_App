@@ -1,0 +1,10 @@
+<mat-dialog-content>
+	<h2 class="mat-h2 m-0">
+		{{ dataHeader }}
+	</h2>
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+	<button mat-button mat-dialog-close>Cancel</button>
+	<button mat-raised-button color="primary" [mat-dialog-close]="true" cdkFocusInitial style="background-color: rgb(191, 255, 0); color: rgb(236, 228, 228);">Confirm</button>
+</mat-dialog-actions>
